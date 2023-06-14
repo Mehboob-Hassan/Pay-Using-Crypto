@@ -7,7 +7,7 @@
 
 ## Demo
 
-<!-- https://moralis-account-details.herokuapp.com/ -->
+https://pay-using-crypto.netlify.app/
 
 
 

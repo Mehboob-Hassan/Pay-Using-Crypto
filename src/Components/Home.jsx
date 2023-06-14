@@ -1,10 +1,10 @@
-import { useState, useRef, useEffect } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  {ContextState}  from '../Context/AppContext';
 
-import { Form, Card, button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 function Home() {
   const { getProviderOrSigner,  connectWallet, walletConnected } = ContextState()
@@ -22,7 +22,7 @@ function Home() {
       <div className='home-body container-fluid'>
         <div className='products'>
           <Card className='product-card'>
-            <Card.Img variant="top" src="./sneaker.jpeg" />
+            <Card.Img variant="top" src="./sneaker.jpeg" alt='Sneaker Image' />
             <Card.Body>
               <Card.Title>Bifua Sneaker</Card.Title>
               <Card.Text><b>Price</b> : $15</Card.Text>
@@ -38,7 +38,7 @@ function Home() {
             </Card.Body>
           </Card>
           <Card className='product-card'>
-            <Card.Img variant="top" src="./tourBag.jpeg" />
+            <Card.Img variant="top" src="./tourBag.jpeg" alt='Bag Image' />
             <Card.Body>
               <Card.Title>Miura Tour Bag</Card.Title>
               <Card.Text><b>Price</b> : $24</Card.Text>
@@ -46,7 +46,7 @@ function Home() {
             </Card.Body>
           </Card>
           <Card className='product-card'>
-            <Card.Img variant="top" src="./camera.jpeg" />
+            <Card.Img variant="top" src="./camera.jpeg"  alt='Camer Image' />
             <Card.Body>
               <Card.Title>Zenfolio</Card.Title>
               <Card.Text><b>Price</b> : $150</Card.Text>

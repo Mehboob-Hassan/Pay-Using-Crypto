@@ -107,14 +107,14 @@ function Payment() {
                         <Card.Title><b>Pay Using</b></Card.Title>
                         <div className='token-Buttons'>
                             <div>
-                                <button onClick={() => buyUsingToken('DOGE', price)}><img src='../dogecoin.jpeg' /> DOGE</button><br />
-                                <button onClick={() => buyUsingToken('USDC', price)}><img src='../usdc.png' /> USDC</button><br />
-                                <button onClick={() => buyUsingToken('LTC', price)}><img src='../litecoin.png' /> LiteCoin </button>
+                                <button onClick={() => buyUsingToken('DOGE', price)}><img src='../dogecoin.jpeg' alt='Image Here'/> DOGE</button><br />
+                                <button onClick={() => buyUsingToken('USDC', price)}><img src='../usdc.png' alt='Image Here'/> USDC</button><br />
+                                <button onClick={() => buyUsingToken('LTC', price)}><img src='../litecoin.png' alt='Image Here'/> LiteCoin </button>
                             </div>
                             <div>
-                                <button onClick={() => buyUsingToken('SHIB', price)}><img src='../shiba.png' /> Shiba</button><br />
-                                <button onClick={() => buyUsingToken('DAI', price)}><img src='../dai.png' /> DAI</button><br />
-                                <button onClick={() => buyUsingToken('APE', price)}><img src='../apecoin.png' /> Apecoin</button>
+                                <button onClick={() => buyUsingToken('SHIB', price)}><img src='../shiba.png' alt='Image Here'/> Shiba</button><br />
+                                <button onClick={() => buyUsingToken('DAI', price)}><img src='../dai.png' alt='Image Here'/> DAI</button><br />
+                                <button onClick={() => buyUsingToken('APE', price)}><img src='../apecoin.png' alt='Image Here'/> Apecoin</button>
                             </div>
 
                         </div>
